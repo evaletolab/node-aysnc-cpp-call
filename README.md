@@ -1,3 +1,4 @@
+#Simple algorithm to calculate Pi in parallel
 Import, compile and run
 
 ```
