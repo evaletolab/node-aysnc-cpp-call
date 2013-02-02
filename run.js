@@ -17,7 +17,7 @@ var workers=[
 require('async').forEach(workers,function(index,cb){
   
   //
-  // run native code in thread
+  // run native code in separate thread
   var id=PI.compute(index[0],index[1], function(err, sum) {
       total+=sum;
       cb(err);
