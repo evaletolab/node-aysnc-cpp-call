@@ -23,10 +23,9 @@ require('async').forEach(workers,function(index,cb){
       cb(err);
   });
   
-  console.log("worker [",id,"] computing:" +index);
+  console.log("worker [",id,"] is computing:" +index);
 },
 function(err){
-
   //
   // all workers are done!
   var _PI="3.14159265358979323846264338327950288419716939937510582097494459230781640628620899";
